@@ -20,7 +20,7 @@ def main():
             case ['cat', noun]:
                 print(open(noun).read())
             case ['touch', noun]:
-                open(noun, 'w')
+                open(noun, 'x')
             case ['rm', noun]:
                 os.remove(noun)
             case ['mkdir', noun]:
