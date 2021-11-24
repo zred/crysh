@@ -35,7 +35,7 @@ def main():
                 cry.ptor_encrypt_file(noun)
             case ['dec', noun]:
                 cry.ptor_decrypt_file(noun)
-            case ['mkey']:
+            case ['skey']:
                 cry.save_key()
             case ['rkey']:
                 cry.read_key()
