@@ -29,8 +29,6 @@ def main():
                 os.rmdir(noun)
             case ['mv', noun1, noun2]:
                 os.rename(noun1, noun2)
-            case ['cp', noun1, noun2]:
-                os.copyfile(noun, noun2)
             case ['enc', noun]:
                 cry.ptor_encrypt_file(noun)
             case ['dec', noun]:
